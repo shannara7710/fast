@@ -1,0 +1,63 @@
+.card .card-title {
+    color: black;
+    font-weight: bold;
+    font-family: 'roboto';
+    padding: 25px;
+  
+}
+.image{
+    width: 100%;
+}
+.texte{
+    font-size: 20px;
+    margin: 5px;
+}
+.titre{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.boxImg{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+    align-content: center;
+
+}
+
+.box{
+    width: 25%;
+    height: 500px;
+   border:1px solid #00ED65;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    text-align: center;
+    box-shadow: 2px black;
+}
+
+.containerBox{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
+@media screen and (max-width:1200px){
+    .box{
+        width: 40%;
+    }
+}
+@media screen and (max-width:600px){
+    .box{
+        width: 90%;
+    }
+}
+

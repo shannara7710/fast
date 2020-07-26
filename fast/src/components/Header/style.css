@@ -1,0 +1,97 @@
+.colorNavbar{
+    background-color: #F3FCFF;
+    
+ }
+
+ nav .brand-logo{
+    color: black;
+ }
+
+ nav{
+    color: black;
+    font-family: roboto;
+    
+
+ }
+.colorUl {
+     position: relative;
+    left: 25%;
+ }
+
+
+ .positionLogin{
+     position: relative;
+     right: 5%;
+ }
+
+ .btn, .btn-large, .btn-small{
+     background-color: #29b6f6;
+     border-radius: 15px;
+ }
+
+ .btn:hover{
+    background-color: #03a9f4;
+ }
+ .connexion{
+    background: white;
+    color: black;
+    border-radius: none;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none;
+ }
+
+ .connexion:hover {
+   background: white;
+   color: black;
+   border-radius: none;
+   margin-right: 10px;
+   border: none;
+   text-decoration: none;
+}
+
+.connexion{
+   text-align: center;
+}
+
+.connexionModal{
+   border: 1px solid #2BE88D;
+}
+
+.buttonConnexion{
+   background: #2BE88D;
+   width: 100%;
+   top: 50px;
+   
+}
+
+.buttonConnexion:hover{
+   border: 1px solid #2BE88D;
+   background: white;
+   color: #2BE88D;
+}
+.containerConnexionButton{
+   align-content: center;
+  
+}
+
+.motpasse{
+   position: relative;
+   top: 60px;
+}
+
+.containeCreateAccount{
+   position: relative;
+   top: 90px;
+}
+
+.connexionSpan{
+   position: relative;
+   text-align: center;
+   font-style: italic;
+}
+
+.containerFrom{
+   align-content: center;
+}
+

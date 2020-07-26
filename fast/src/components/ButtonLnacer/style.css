@@ -1,0 +1,56 @@
+.boxL{
+    width: 40%;
+    height: auto;
+    border:1px solid #00ED65;
+    background: #00ED65;
+    box-sizing: border-box;
+    font-size: 40px;
+    border-radius: 40px;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    box-shadow: 10px black;
+}
+
+.boxL:hover{
+    background: white;
+    color: #00ED65;
+}
+.boxG{
+    width: 40%;
+    height: auto;
+    border:1px solid #00ED65;
+    background: white;
+    box-sizing: border-box;
+    font-size: 40px;
+    border-radius: 40px;
+    text-align: center;
+    overflow: hidden;
+    color: #00ED65;
+}
+.boxG:hover{
+    background: #00ED65;
+    color: white;
+}
+.containerLancer{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+@media screen and (max-width:1200px){
+    .boxL .boxG{
+        width: 40%;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width:600px){
+    .boxl .boxG{
+        width: 90%;
+        margin-bottom: 5px;
+    }
+}

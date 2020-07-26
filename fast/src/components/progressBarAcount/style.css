@@ -1,0 +1,32 @@
+.p{
+    width: 70%;
+}
+
+.progressPerso{
+    position: fixed;
+    background-color: #707070;
+    height: 50%;
+    width: 4px;
+    top:28%;
+    border-radius: 10px;
+}
+
+.ico{
+    color: green;
+   position: relative;
+   right: 10px;
+}
+
+.list{
+    position: fixed;
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 0;
+   
+}
+
+.list p{
+    margin-bottom: 100px;
+}

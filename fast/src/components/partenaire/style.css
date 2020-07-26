@@ -1,0 +1,28 @@
+.boxP{
+    width: 20%;
+    height: auto;
+    border:1px solid #00ED65;
+    box-sizing: border-box;
+    font-size: 30px;
+    border-radius: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.boxP:hover{
+    color: white;
+    background: #00ED65;
+}
+
+@media screen and (max-width:1200px){
+    .boxP{
+        width: 40%;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width:600px){
+    .boxP{
+        width: 90%;
+        margin-bottom: 5px;
+    }
+}
